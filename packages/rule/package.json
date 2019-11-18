@@ -1,0 +1,36 @@
+{
+  "name": "@sovereign/rule",
+  "version": "0.0.1",
+  "author": "me@pulecka.com",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "types": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext ts",
+    "lint:fix": "yarn lint --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "rollup": "^1.26.3",
+    "rollup-plugin-babel": "^4.3.3",
+    "typescript": "^3.6.4"
+  }
+}

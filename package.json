@@ -1,0 +1,14 @@
+{
+  "name": "sovereign",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "watch": "yarn workspaces run watch",
+    "test": "yarn workspaces run test",
+    "lint": "yarn workspaces run lint",
+    "types": "yarn workspaces run types"
+  }
+}
