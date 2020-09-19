@@ -1,10 +1,10 @@
-import babel from 'rollup-plugin-babel'
+import babel from '@rollup/plugin-babel'
 import pkg from './package.json'
 
 export default [
   {
-    plugins: [babel({ extensions: ['.ts'] })],
-    input: 'src/index.ts',
+    plugins: [babel()],
+    input: 'src/index.js',
     output: [{ file: pkg.main, format: 'es' }],
   },
 ]
